@@ -1,7 +1,7 @@
 # GameProject
  Creating games using the SDL library
 
-Snake Game
+Snake Game<div>
 -Using SDL library
 -Concept is Linked list
 
