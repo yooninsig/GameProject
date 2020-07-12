@@ -1,0 +1,30 @@
+#pragma once
+#include "Creature.h"
+
+class Missile : public GameObject
+{
+public:
+	const static int MISSILE_SIZE = 50;
+protected:
+	//0 : ¿ÞÂÊ, 1 : ¿À¸¥ÂÊ, 2 : À§, 3 : ¾Æ·¡
+	int dir;
+	//0 : ¶Ë, 1 : ÇÏÀÌ, 2 : ¸», 3 : ¾¾ÇÃ
+	int type;
+	int damage;
+	int len;
+public:
+	Missile(int type, int dir);
+	~Missile();
+
+	int GetType();
+	void SetType(int t);
+	int GetDir();
+	void SetDir(int d);
+	int GetDamage();
+	void SetDamage(int d);
+	int GetLen();
+	void SetLen(int l);
+
+	void Draw();
+	void Move();
+};
