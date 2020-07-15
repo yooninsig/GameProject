@@ -9,6 +9,6 @@ Snake Game<div>
 School Team Project (make a 2D Game)<div>
 We make a student arcade game<div>
 <div>
- <img src = 'C:\Users\Ace\Desktop\git upload image file\game1.jpg'/>
+ <img src = 'C:\Users\Ace\Desktop\git upload image file\game1.jpg'></img>
  <div>
-<img src = 'C:\Users\Ace\Desktop\git upload image file\game2.jpg' />
+<img src = 'C:\Users\Ace\Desktop\git upload image file\game2.jpg'></img>
